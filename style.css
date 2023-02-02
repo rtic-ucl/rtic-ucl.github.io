@@ -11,7 +11,6 @@
 }
 @media print {
   body{
-  /* font-family: "Times New Roman", Times, serif; */
     width: 21cm;
     height: 29.7cm;
     margin-top: 0mm;
@@ -59,7 +58,7 @@ nav {
   border: none;
   outline: none;
   color: black;
-  padding: 14px 16px;
+  padding: 10px 12px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -111,8 +110,8 @@ nav {
 }
 
 .margin {
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 25mm;
+  margin-left: 25mm;
   margin-top: 10mm;
   margin-bottom: 25mm;
   padding: 1%;
