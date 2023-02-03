@@ -72,6 +72,13 @@ nav {
   display: block;
   text-align: left;
 }
+.dropdown .dropbtn a:hover {
+  background-color: rgba(147, 147, 147, 0.8);
+}
+.dropdown .dropbtn .active {
+  font-family: Arial Bold;
+  color: rgba(42, 88, 255, 0.8);
+}
 
 /* Add a background color to navbar links on hover */
 .navbar a:hover,
@@ -109,12 +116,12 @@ nav {
   display: block;
 }
 
-.margin {
-  margin-right: 25mm;
+.margins {
+  margin-right: 80mm;
   margin-left: 25mm;
   margin-top: 10mm;
   margin-bottom: 25mm;
-  padding: 1%;
+  /* padding: 1%; */
 }
 section {
   clear: both;
@@ -236,3 +243,75 @@ blockquote p {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+#footer .twitter {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2504/2504947.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+#footer .youtube {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1384/1384060.png);
+  background-repeat: no-repeat;
+  background-position: -78px 0;
+}
+/*
+#footer .github {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/270/270798.png);
+  background-repeat: no-repeat;
+  background-position: -233px 0;
+}
+*/
+#footer .ucl {
+  background-image: url(https://th.bing.com/th?q=UCL+School+Logo&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-GB&cc=GB&setlang=en&adlt=moderate&t=1&mw=247);
+  background-repeat: no-repeat;
+  background-position: -156px 0;
+}
+/*
+#footer .flickr {
+  background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+  background-repeat: no-repeat;
+  background-position: -310px 0;
+}
+*/
+#footer a {
+  height: 56px;
+  width: 56px;
+  display: inline-block;
+  margin: 10px;
+}
+#footer a:hover {
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+}
+/*
+#footer .github:hover {
+  background-position: 0 -56px;
+}
+*/
+#footer .twitter:hover {
+  background-position: -233px -56px;
+}
+#footer .ucl:hover {
+  background-position: -156px -56px;
+}
+#footer .youtube:hover {
+  background-position: -78px -56px;
+}
+/*
+#footer .flickr:hover {
+  background-position: -310px -56px;
+}
+*/
+.bg-dark-1{
+  background-color: rgb(179, 224, 255);
+  background-image: linear-gradient(225deg, #ff3c3c 0%, #675e6e 50%, #a6d1f0 100%);
+}
+
+
+/* Sidebar for twitter */
+.site-content__sidebar{
+  display:block;
+  float:left;
+  margin-left:74.4103773758%;
+  margin-right:-100%;
+  width:25.5896226242%}
