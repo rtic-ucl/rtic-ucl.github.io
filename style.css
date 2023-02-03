@@ -73,7 +73,7 @@ nav {
   text-align: left;
 }
 
-.dropdown .dropbtn .active {
+.dropdown .dropbtn .activepage {
   font-family: Arial Bold;
   color: rgba(42, 88, 255, 0.8);
 }
