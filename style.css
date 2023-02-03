@@ -72,9 +72,7 @@ nav {
   display: block;
   text-align: left;
 }
-.dropdown .dropbtn a:hover {
-  background-color: rgba(147, 147, 147, 0.8);
-}
+
 .dropdown .dropbtn .active {
   font-family: Arial Bold;
   color: rgba(42, 88, 255, 0.8);
@@ -244,6 +242,10 @@ blockquote p {
   to {opacity: 1}
 }
 
+#footer {
+  clear: both;
+}
+
 #footer .twitter {
   background-image: url(https://cdn-icons-png.flaticon.com/512/2504/2504947.png);
   background-repeat: no-repeat;
@@ -279,17 +281,17 @@ blockquote p {
   display: inline-block;
   margin: 10px;
 }
-#footer a:hover {
+/* #footer a:hover {
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
-}
+} */
 /*
 #footer .github:hover {
-  background-position: 0 -56px;
+  background-position: -233px -56px;
 }
 */
 #footer .twitter:hover {
-  background-position: -233px -56px;
+  background-position: 0 -56px;
 }
 #footer .ucl:hover {
   background-position: -156px -56px;
