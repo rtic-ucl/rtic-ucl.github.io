@@ -233,7 +233,8 @@ blockquote p {
 }
 
 /* Sidebar for twitter */
-.site-content__sidebar{
+
+.content-sidebar{
   display:block;
   float:left;
   margin-left:74.4103773758%;
