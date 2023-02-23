@@ -114,16 +114,15 @@ nav {
   display: block;
 }
 
-.margins {
+.main {
   display:flow-root;
-  float:right;
-  margin-right:20mm;
+  float:left;
+  margin-right:25.5896226242%;
   margin-left:20mm;
   margin-top: 10mm;
   margin-bottom: 25mm;
-  /* padding: 1%; */
 }
-.margins section {
+.main section {
   clear: both;
 }
 /* Style of headings */
@@ -233,6 +232,14 @@ blockquote p {
   background-color: #717171;
 }
 
+/* Sidebar for twitter */
+.site-content__sidebar{
+  display:flow-root;
+  float:left;
+  margin-left:74.4103773758%;
+  margin-right:-100%;
+  width:25.5896226242%;
+}
 
 /*  FOOTER  */
 .site-footer {
@@ -288,16 +295,7 @@ footer p {
 	text-align: center;
 }
 
-/* .bg-dark-1{
-  background-color: rgb(179, 224, 255);
-  background-image: linear-gradient(225deg, #ff3c3c 0%, #675e6e 50%, #a6d1f0 100%);
-} */
 
 
-/* Sidebar for twitter */
-.site-content__sidebar{
-  display:flow-root;
-  float:left;
-  margin-left:74.4103773758%;
-  margin-right:-100%;
-  width:25.5896226242%}
+
+
