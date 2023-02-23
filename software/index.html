@@ -70,7 +70,7 @@
           </li>
           <li class="dropdown">
             <button class="dropbtn">
-              <a href="https://rtic-ucl.github.io/">
+              <a class="activepage" href="https://rtic-ucl.github.io/">
                 Home
               </a>
             </button>
@@ -89,7 +89,7 @@
               </a>
               <i class="fa fa-caret-down"></i>
             </button>
-            <!-- <div class="dropdown-content">
+            <div class="dropdown-content">
               <a href="" target="_self">
                 Project 1
               </a>
@@ -99,7 +99,7 @@
               <a href="" target="_self">
                 Project 3
               </a>
-            </div> -->
+            </div>
           </li>
           <li class="dropdown">
             <button class="dropbtn">
@@ -123,7 +123,7 @@
             </button>
           </li>
           <li class="dropdown">
-            <button class="activepage" class="dropbtn">
+            <button class="dropbtn">
               <a href="https://rtic-ucl.github.io/software">
                 Software
               </a>
@@ -144,46 +144,47 @@
         </ul>
       </nav>
       <!-- This is the start of content for our page -->
-      <section class="margins" id="contents">
-        <br>
-        <h1>Software</h1>
-        <ul>
-          <li>
-            <p>
-              <strong>CT-based imaging biomarkers</strong>
-              <br>
-              The RILD biomarkers project consists of set of image analysis tools to quantify radiation-induced 
-              lung damage (RILD) for academic research use.
-              <br><br>
-              Project page: 
-              <a href="https://github.com/CMIC-RT/RILD_biomarkers">https://github.com/CMIC-RT/RILD_biomarkers</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <strong>cid-X: XCAT DVF post processing and inverse computation</strong>
-              <br>
-              Consistent and invertible deformation vector fields for a breathing anthropomorphic phantom: a 
-              post-processing framework for the XCAT phantom.
-              <br><br>
-              Project page: 
-              <a href="https://github.com/UCL/cid-X">https://github.com/UCL/cid-X</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <strong>SuPReMo:Surrogate Parametrised Respiratory Motion Modelling</strong>
-              <br>
-              Implementation of the unified motion modelling and image registration framework.
-            </p>
-            <p>
-              Project page:
-              <a href="https://github.com/UCL/SuPReMo" id="LPlnk940845">https://github.com/UCL/SuPReMo</a>
-            </p>
-          </li>
-        </ul>
-      </section>
-      <div class="content-sidebar">
+      <div id="contents">
+        <div class="main">
+          <br>
+          <h1>Software</h1>
+          <ul>
+            <li>
+              <p>
+                <strong>CT-based imaging biomarkers</strong>
+                <br>
+                The RILD biomarkers project consists of set of image analysis tools to quantify radiation-induced 
+                lung damage (RILD) for academic research use.
+                <br><br>
+                Project page: 
+                <a href="https://github.com/CMIC-RT/RILD_biomarkers">https://github.com/CMIC-RT/RILD_biomarkers</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>cid-X: XCAT DVF post processing and inverse computation</strong>
+                <br>
+                Consistent and invertible deformation vector fields for a breathing anthropomorphic phantom: a 
+                post-processing framework for the XCAT phantom.
+                <br><br>
+                Project page: 
+                <a href="https://github.com/UCL/cid-X">https://github.com/UCL/cid-X</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>SuPReMo:Surrogate Parametrised Respiratory Motion Modelling</strong>
+                <br>
+                Implementation of the unified motion modelling and image registration framework.
+              </p>
+              <p>
+                Project page:
+                <a href="https://github.com/UCL/SuPReMo" id="LPlnk940845">https://github.com/UCL/SuPReMo</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+              <div class="content-sidebar">
         <div class="site-content__sidebar">
           <div class="prebox">
             <div class="box tagged box--bar-thick">
@@ -273,17 +274,24 @@
           </div>   
         </div>
       </div>
-      <footer class="bg-dark-1">
-        <section id="footer" class="py-5">
-          <div class="container text-center">
-            <a href="https://twitter.com/rtic_ucl" class="twitter"></a>
-            <a href="https://www.youtube.com/channel/UC3o7U1N8nYh5uzJHpiARIrQ" class="youtube"></a>
-            <!-- <a href="#" class="github"></a> -->
-            <a href="https://www.ucl.ac.uk/medical-physics-biomedical-engineering/research/research-groups/radiotherapy-image-computing-group-rtic" class="ucl"></a>
-            <!-- <a href="#" class="flickr"></a> -->
-            <h6 class="m-0 mt-4 text-center text-white text-capitalize">Copyright (c) 2023 rtic-ucl</h6>
-          </div>
-        </section>
+      </div>
+
+      <footer id="colophon" class="site-footer" role="contentinfo">
+        <div class="social-wrapper">
+          <ul>
+            <li>
+              <a href="https://twitter.com/rtic_ucl" target="_blank">
+                <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UC3o7U1N8nYh5uzJHpiARIrQ" target="_blank">
+                <img src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170" alt="Youtube Logo" class="youtube-icon"></a>
+            </li>
+          </ul>
+        </div>
+        <p>
+          RTIC UCL
+        </p>
       </footer>
     </div>
   </div>
