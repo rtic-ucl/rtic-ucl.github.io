@@ -119,7 +119,6 @@ nav {
   float:right;
   margin-right:20mm;
   margin-left:20mm;
-  width:25.5896226242%;
   margin-top: 10mm;
   margin-bottom: 25mm;
   /* padding: 1%; */
@@ -235,7 +234,7 @@ blockquote p {
 }
 
 /* Fading animation */
-.fade {
+/* .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
@@ -243,7 +242,7 @@ blockquote p {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
+} */
 
 #footer {
   display:flow-root;
@@ -308,10 +307,10 @@ blockquote p {
   background-position: -310px -56px;
 }
 */
-.bg-dark-1{
+/* .bg-dark-1{
   background-color: rgb(179, 224, 255);
   background-image: linear-gradient(225deg, #ff3c3c 0%, #675e6e 50%, #a6d1f0 100%);
-}
+} */
 
 
 /* Sidebar for twitter */
