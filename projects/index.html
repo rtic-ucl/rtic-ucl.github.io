@@ -70,7 +70,7 @@
           </li>
           <li class="dropdown">
             <button class="dropbtn">
-              <a href="https://rtic-ucl.github.io/">
+              <a class="activepage" href="https://rtic-ucl.github.io/">
                 Home
               </a>
             </button>
@@ -84,12 +84,12 @@
           </li>
           <li class="dropdown">
             <button class="dropbtn">
-              <a class="activepage" href="https://rtic-ucl.github.io/projects">
+              <a href="https://rtic-ucl.github.io/projects">
                 Projects
               </a>
               <i class="fa fa-caret-down"></i>
             </button>
-            <!-- <div class="dropdown-content">
+            <div class="dropdown-content">
               <a href="" target="_self">
                 Project 1
               </a>
@@ -99,7 +99,7 @@
               <a href="" target="_self">
                 Project 3
               </a>
-            </div> -->
+            </div>
           </li>
           <li class="dropdown">
             <button class="dropbtn">
@@ -144,56 +144,57 @@
         </ul>
       </nav>
       <!-- This is the start of content for our page -->
-      <section class="margins" id="contents">
-        <br>
-        <h1>Projects</h1>
-        <p>
-          These are the projects RTIC have been working on.
-        </p>
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
-          <!-- Full-width images with number and caption text -->
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 2</div>
-            <div class="text">
-              <div id="slide1">
-                <h3>Project 1</h3>
-                <p>Description of Slide 1</p>
-                <button><a>Link to relevant page</a></button>
+      <div id="contents">
+        <div class="main">
+          <br>
+          <h1>Projects</h1>
+          <p>
+            These are the projects RTIC have been working on.
+          </p>
+          <!-- Slideshow container -->
+          <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 2</div>
+              <div class="text">
+                <div id="slide1">
+                  <h3>Project 1</h3>
+                  <p>Description of Slide 1</p>
+                  <button><a>Link to relevant page</a></button>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="mySlides fade">
-            <div class="numbertext">2 / 2</div>
-            <div class="text">
-              <div id="slide2">
-                <h3>Project 2</h3>
-                <p>Description of Slide 2</p>
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 2</div>
+              <div class="text">
+                <div id="slide2">
+                  <h3>Project 2</h3>
+                  <p>Description of Slide 2</p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <!-- Next and previous buttons on slideshow -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- Next and previous buttons on slideshow -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <!-- The dots/circles under slideshow -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+          </div>
+          <ul>
+            <li>Modelling intra- and inter-fractional anatomical changes for planning, guiding, and monitoring radiotherapy treatment of lung and H&N patients</li>
+            <li>Developing adaptive radiotherapy guidelines for UK centers based on image guidance techniques</li>
+            <li>Image analysis for disease modelling and investigation of dose-outcome relationships in patients with Radiation-Induced Lung Damage (RILD)</li>
+            <li>Building a safe and reliable data sharing platform for radiotherapy imaging</li>
+            <li>Developing low-rank based motion model based on con-beam CT projection images as well as methodology to integrated motion fitting, surrogate optimization and image reconstruction</li>
+            <li>Improve the accuracy of patient dose information using MC techniques, enabling in this way accurate risk modelling and prediction of radiation induced second cancers for paediatric patients</li>
+            <li>3D-Printed phantoms for quality assurance in paediatric radiotherapy</li>
+          </ul>
         </div>
-        <br>
-        <!-- The dots/circles under slideshow -->
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-        </div>
-        <ul>
-          <li>Modelling intra- and inter-fractional anatomical changes for planning, guiding, and monitoring radiotherapy treatment of lung and H&N patients</li>
-          <li>Developing adaptive radiotherapy guidelines for UK centers based on image guidance techniques</li>
-          <li>Image analysis for disease modelling and investigation of dose-outcome relationships in patients with Radiation-Induced Lung Damage (RILD)</li>
-          <li>Building a safe and reliable data sharing platform for radiotherapy imaging</li>
-          <li>Developing low-rank based motion model based on con-beam CT projection images as well as methodology to integrated motion fitting, surrogate optimization and image reconstruction</li>
-          <li>Improve the accuracy of patient dose information using MC techniques, enabling in this way accurate risk modelling and prediction of radiation induced second cancers for paediatric patients</li>
-          <li>3D-Printed phantoms for quality assurance in paediatric radiotherapy</li>
-        </ul>
-      </section>
-      <div class="content-sidebar">
+              <div class="content-sidebar">
         <div class="site-content__sidebar">
           <div class="prebox">
             <div class="box tagged box--bar-thick">
@@ -283,17 +284,24 @@
           </div>   
         </div>
       </div>
-      <footer class="bg-dark-1">
-        <section id="footer" class="py-5">
-          <div class="container text-center">
-            <a href="https://twitter.com/rtic_ucl" class="twitter"></a>
-            <a href="https://www.youtube.com/channel/UC3o7U1N8nYh5uzJHpiARIrQ" class="youtube"></a>
-            <!-- <a href="#" class="github"></a> -->
-            <a href="https://www.ucl.ac.uk/medical-physics-biomedical-engineering/research/research-groups/radiotherapy-image-computing-group-rtic" class="ucl"></a>
-            <!-- <a href="#" class="flickr"></a> -->
-            <h6 class="m-0 mt-4 text-center text-white text-capitalize">Copyright (c) 2023 rtic-ucl</h6>
-          </div>
-        </section>
+      </div>
+
+      <footer id="colophon" class="site-footer" role="contentinfo">
+        <div class="social-wrapper">
+          <ul>
+            <li>
+              <a href="https://twitter.com/rtic_ucl" target="_blank">
+                <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UC3o7U1N8nYh5uzJHpiARIrQ" target="_blank">
+                <img src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170" alt="Youtube Logo" class="youtube-icon"></a>
+            </li>
+          </ul>
+        </div>
+        <p>
+          RTIC UCL
+        </p>
       </footer>
     </div>
   </div>
