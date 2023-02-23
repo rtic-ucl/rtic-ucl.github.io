@@ -74,7 +74,7 @@ nav {
 }
 
 .dropdown .dropbtn .activepage {
-  font-family: Arial Bold;
+  font-family: Arial, sans-serif;
   color: rgba(42, 88, 255, 0.8);
 }
 
@@ -115,11 +115,11 @@ nav {
 }
 
 .margins {
-  display:block;
+  display:flow-root;
   float:right;
-  margin-right:24.4103773758%;
-  margin-left:-100%;
-  width:25.5896226242%}
+  margin-right:20mm;
+  margin-left:20mm;
+  width:25.5896226242%;
   margin-top: 10mm;
   margin-bottom: 25mm;
   /* padding: 1%; */
@@ -246,6 +246,7 @@ blockquote p {
 }
 
 #footer {
+  display:flow-root;
   clear: both;
 }
 
@@ -315,7 +316,7 @@ blockquote p {
 
 /* Sidebar for twitter */
 .site-content__sidebar{
-  display:block;
+  display:flow-root;
   float:left;
   margin-left:74.4103773758%;
   margin-right:-100%;
