@@ -115,10 +115,10 @@ nav {
 }
 
 .main {
-  display:flow-root;
+  display:block;
   float:left;
-  margin-right:25.5896226242%;
-  margin-left:20mm;
+  margin-right:27%;
+  margin-left:10mm;
   margin-top: 10mm;
   margin-bottom: 25mm;
 }
@@ -234,7 +234,7 @@ blockquote p {
 
 /* Sidebar for twitter */
 .site-content__sidebar{
-  display:flow-root;
+  display:block;
   float:left;
   margin-left:74.4103773758%;
   margin-right:-100%;
@@ -275,8 +275,8 @@ blockquote p {
 	margin-top: .625em;
 	width: 40px;
 	height: 40px;
-	opacity: .6;
-	filter: alpha(opacity=60); /* For IE8 and earlier */
+	opacity: .8;
+	filter: alpha(opacity=80); /* For IE8 and earlier */
   border-radius: 25px;
 }
 
