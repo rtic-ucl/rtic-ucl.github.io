@@ -115,13 +115,16 @@ nav {
 }
 
 .margins {
-  margin-right: 80mm;
-  margin-left: 25mm;
+  display:block;
+  float:right;
+  margin-right:24.4103773758%;
+  margin-left:-100%;
+  width:25.5896226242%}
   margin-top: 10mm;
   margin-bottom: 25mm;
   /* padding: 1%; */
 }
-section {
+.margins section {
   clear: both;
 }
 /* Style of headings */
@@ -281,10 +284,10 @@ blockquote p {
   display: inline-block;
   margin: 10px;
 }
-/* #footer a:hover {
+#footer a:hover {
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
-} */
+}
 /*
 #footer .github:hover {
   background-position: -233px -56px;
